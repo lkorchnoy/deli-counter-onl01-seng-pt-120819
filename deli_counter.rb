@@ -4,7 +4,7 @@
 
 def line(customers)
   if customers.length == 0
-    puts ""
+    puts "
 
 
 new_number = 1 

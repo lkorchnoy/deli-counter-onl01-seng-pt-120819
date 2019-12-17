@@ -1,11 +1,19 @@
 # Write your code here.
 
-#If there is nobody in line, it should say "The line is currently empty."
-
 def line(customers)
   if customers.length == 0
-    puts "
+    puts "The line is currently empty."
+  else 
+    arr = []
+    i = 0
+    while i < customers.length do
+    arr << "#{ i + 1}. #{customers[i] }"
+    i += 1
+end 
 
+puts "The line is currently: #{arr.join(" ")}"
+end
+end
 
 new_number = 1 
   customers.each { |i| new_number << i + 1 }

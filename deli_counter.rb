@@ -3,8 +3,8 @@
 #If there is nobody in line, it should say "The line is currently empty."
 
 def line(customers)
-  
-while customers.length 
+  if customers.length == 0
+    puts ""
 
 
 new_number = 1 

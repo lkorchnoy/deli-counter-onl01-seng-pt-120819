@@ -34,7 +34,7 @@ def now_serving(names)
     names.first = names.shift
   else
     names.index > names
-    puts 
-    
+    puts "There is nobody waiting to be served!"
+   end 
   
 end

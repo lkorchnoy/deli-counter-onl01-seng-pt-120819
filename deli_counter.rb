@@ -18,10 +18,23 @@ end
 def take_a_number(katz_deli, names)
   katz_deli = 1
   arr = []
-  name.each { |name| arr << katz_deli + 1 }
+  names.each { |name| arr << katz_deli + 1 }
   arr << katz_deli + 1
     katz_deli += 1
     puts "#{name} you are #{arr} in line"
   end
+  
+end
+
+def now_serving(names)
+  if names.index[0]
+    puts "The next person in line"
+    names.index += 1
+  elseif
+    names.first = names.shift
+  else
+    names.index > names
+    puts 
+    
   
 end

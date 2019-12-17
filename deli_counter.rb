@@ -18,9 +18,10 @@ end
 def take_a_number(katz_deli, names)
   katz_deli = 1
   arr = []
-  while names < katz_deli.size do
-    arr << katz_deli + 1
+  name.each { |name| arr << katz_deli + 1 }
+  arr << katz_deli + 1
     katz_deli += 1
     puts "#{name} you are #{arr} in line"
   end
   
+end
